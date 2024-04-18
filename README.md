@@ -10,5 +10,6 @@ This repository includes the code needed to perform RAG on Azure.
    (you need your Admin keys which you can find in Keys section under Settings in your AI Search service and also the endpoint URL which in under       Overview.
 ### 3. Create search index in Azure:
    Run `.ipynb` file to create search index in Azure and upload the documents to it. Then go to your search service on Azure check Index, you should see your search index there with your given name    and inside it you will see all the uploaded documents(chunks)
-### 4. Run `` file to do a vector search with a given query
+### 4. Perform AI search
+   Run `3.azure_ai_vector_search.ipynb` file to do a vector search on the uploaded files with a given query
    
