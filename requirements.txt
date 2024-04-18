@@ -1,0 +1,10 @@
+PyPDF2
+sentence-transformers
+python-dotenv
+azure-search-documents
+streamlit
+openai
+tenacity
+langchain
+tiktoken
+streamlit_chat
