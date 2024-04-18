@@ -2,8 +2,8 @@
 
 import subprocess
 import sys
-from  biz_azure_ai_search import *
-from azure_open_ai import *
+from  backend.biz_azure_ai_search import *
+from azure_open_ai.azure_open_ai import *
 
 
 # from streamlit_chat import message
