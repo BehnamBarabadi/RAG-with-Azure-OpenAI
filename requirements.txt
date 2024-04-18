@@ -1,6 +1,8 @@
 PyPDF2
 sentence-transformers
 python-dotenv
+azure-core
+azure-search
 azure-search-documents
 streamlit
 openai
