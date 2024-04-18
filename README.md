@@ -1,4 +1,21 @@
-# RAG-with-Azure-OpenAI
+# **Retrieval Augmented Generation (RAG) in Azure AI SearchI**
+Retrieval Augmented Generation (RAG) is an architecture that augments the capabilities of a Large Language Model (LLM) like ChatGPT by adding an information retrieval system that provides grounding data. Adding an information retrieval system gives you control over grounding data used by an LLM when it formulates a response.
+
+Custom RAG pattern for Azure AI Search
+A high-level summary of the pattern looks like this:
+
+Start with a user question or request (prompt).
+Send it to Azure AI Search to find relevant information.
+Send the top ranked search results to the LLM.
+Use the natural language understanding and reasoning capabilities of the LLM to generate a response to the initial prompt.
+Azure AI Search provides inputs to the LLM prompt, but doesn't train the model. In RAG architecture, there's no extra training. The LLM is pretrained using public data, but it generates responses that are augmented by information from the retriever.
+
+RAG patterns that include Azure AI Search have the elements indicated in the following illustration.
+![architecture-diagram](https://github.com/BehnamBarabadi/RAG-with-Azure-OpenAI/assets/59636426/9bc99705-296d-43df-bea0-156504315d39)
+
+
+
+
 This repository includes the code needed to perform RAG on Azure.
 
 ## **Steps:**
