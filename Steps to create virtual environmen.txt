@@ -1,0 +1,7 @@
+1. Type "cmd" in the search bar
+2. Open a terminal and navigate to your project folder. "cd C:\Users\Seyed Barabadi\Downloads\Gen AI\AZURE-AI-VECTOR-SEARCH-main\Streamlit Tutorial"
+3. In your terminal, type: "virtualenv streamlitenv"
+4. In your terminal, activate your environment: "streamlitenv\Scripts\activate"
+5. Run "streamlit run streamlit_main.py"
+
+After each change in the .py file, don't forget to save it and refresh the web page to see the changes.
