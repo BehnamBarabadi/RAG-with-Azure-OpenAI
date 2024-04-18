@@ -29,7 +29,7 @@ The web app provides the user experience, providing the presentation, context, a
 ### 1. Create Embeddings::
    Run `1.create_embeddings.ipynb` to generate embeddings from the input PDF file and save them on your local machine..
 ### 2. Create Azure AI Search Service::
-   Azure AI Search is a solution for vector and full-text information retrieval, suitable for enterprise and various AI scenarios. Follow this [[link](https://learn.microsoft.com/en-us/azure/search/search-create-service-portal)](https://learn.microsoft.com/en-us/azure/search/search-create-service-portal) to create the service. You will need your Admin keys (found in the Keys section under Settings in your AI Search service) and the endpoint URL (found under Overview).
+   Azure AI Search is a solution for vector and full-text information retrieval, suitable for enterprise and various AI scenarios. Follow this [link(https://learn.microsoft.com/en-us/azure/search/search-create-service-portal)]to create the service. You will need your Admin keys (found in the Keys section under Settings in your AI Search service) and the endpoint URL (found under Overview).
 ### 3. Create search index in Azure:
    Run `.ipynb` file to create search index in Azure and upload the documents to it. Then go to your search service on Azure check Index, you should see your search index there with your given name    and inside it you will see all the uploaded documents(chunks)
 ### 4. Perform AI search
