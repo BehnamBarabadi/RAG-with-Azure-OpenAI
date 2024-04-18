@@ -29,15 +29,11 @@ The web app provides the user experience, providing the presentation, context, a
 ### 1. Create Embeddings::
    Run `1.create_embeddings.ipynb` to generate embeddings from the input PDF file and save them on your local machine..
 ### 2. Create Azure AI Search Service::
-   Azure AI Search is a solution for vector and full-text information retrieval, suitable for enterprise and various AI scenarios. Follow this [link(https://learn.microsoft.com/en-us/azure/search/search-create-service-portal)]to create the service. You will need your Admin keys (found in the Keys section under Settings in your AI Search service) and the endpoint URL (found under Overview).
+   Azure AI Search is a solution for vector and full-text information retrieval, suitable for enterprise and various AI scenarios. Follow this [link](https://learn.microsoft.com/en-us/azure/search/search-create-service-portal) to create the service. You will need your Admin keys (found in the Keys section under Settings in your AI Search service) and the endpoint URL (found under Overview).
 ### 3. Create search index in Azure:
    Run `.ipynb` file to create search index in Azure and upload the documents to it. Then go to your search service on Azure check Index, you should see your search index there with your given name    and inside it you will see all the uploaded documents(chunks)
 ### 4. Perform AI search
-   Run `3.azure_ai_vector_search.ipynb` file to do a vector search on the uploaded files with a given query
-   
+   Run `3.azure_ai_vector_search.ipynb` file to conduct a vector search on the uploaded files with a provided query.
 ### 5. Create a virtual environment and run `main.py`
-   First you need to create a `Azure OpenAI` service, then follow the steps in `Steps to create virtual environmen.txt` file to create a virtual environment and run the `app.py` file using `streamlit app.py` command
-   - https://www.codecademy.com/article/getting-started-with-azure-open-ai-service
-     
-  The UI that is used to interact with the code is Streamlit.
-  - https://docs.streamlit.io/get-started
+  Firstly, create an `Azure OpenAI` service. Then, follow the steps outlined in the "Steps to Create Virtual Environment.txt" file to set up a virtual environment. Finally, execute the app.py file using the command `streamlit app.py`. Refer to [getting-started-with-azure-open-ai-service](https://www.codecademy.com/article/getting-started-with-azure-open-ai-service) for guidance on setting up the Azure OpenAI service. The user interface utilized to interact with the code is Streamlit. For more information, visit the [Streamlit documentation](https://docs.streamlit.io/get-started).
+  
