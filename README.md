@@ -42,3 +42,4 @@ The web app provides the user experience, providing the presentation, context, a
    - https://www.codecademy.com/article/getting-started-with-azure-open-ai-service
      
   The UI that is used to interact with the code is Streamlit.
+  - https://docs.streamlit.io/get-started
