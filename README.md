@@ -14,5 +14,6 @@ This repository includes the code needed to perform RAG on Azure.
    Run `3.azure_ai_vector_search.ipynb` file to do a vector search on the uploaded files with a given query
    
 ### 5. Create a virtual environment and run `main.py`
+   look at `Steps to create virtual environmen.txt` file and follow the steps to create a virtual environment and then run the `app.py` file using `streamlit app.py` command
    
 The UI that is used to interact with the code is Streamlit.
