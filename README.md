@@ -23,7 +23,7 @@ RAG patterns that include Azure AI Search have the elements indicated in the fol
 The web app provides the user experience, providing the presentation, context, and user interaction. Questions or prompts from a user start here. Inputs pass through the integration layer, going first to information retrieval to get the search results, but also go to the LLM to set the context and intent.
 
 
-This repository includes the code needed to perform RAG on Azure.
+**This repository includes the code needed to perform RAG on Azure.**
 
 ## **Steps:**
 ### 1. Create embeddings:
@@ -40,4 +40,5 @@ This repository includes the code needed to perform RAG on Azure.
 ### 5. Create a virtual environment and run `main.py`
    First you need to create a `Azure OpenAI` service, then follow the steps in `Steps to create virtual environmen.txt` file to create a virtual environment and run the `app.py` file using `streamlit app.py` command
    - https://www.codecademy.com/article/getting-started-with-azure-open-ai-service
-The UI that is used to interact with the code is Streamlit.
+     
+  The UI that is used to interact with the code is Streamlit.
